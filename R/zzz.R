@@ -1,6 +1,6 @@
 datacache <- new.env(hash=TRUE, parent=emptyenv())
 
-org.LmjF.tritryp <- function() showQCData("org.Lmajor.eg", datacache)
+org.LmjF.tritryp <- function() showQCData("org.LmjF.tritryp", datacache)
 org.LmjF.tritryp_dbconn <- function() dbconn(datacache)
 org.LmjF.tritryp_dbfile <- function() dbfile(datacache)
 org.LmjF.tritryp_dbschema <- function(file="", show.indices=FALSE) dbschema(datacache, file=file, show.indices=show.indices)

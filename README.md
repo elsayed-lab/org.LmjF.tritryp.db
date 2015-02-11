@@ -1,7 +1,6 @@
-org.LmjF.tritryp.db
-===================
+# org.LmjF.tritryp.db
 
-Genome-wide annotation package for *Leishmania major strain Friedlin*, based on
+Genome-wide annotation package for *L. major strain Friedlin*, based on
 annotations from [TriTrypDB 9.0](http://tritrypdb.org/tritrypdb/).
 
 This package was generated using the tools from
@@ -13,8 +12,8 @@ Installation
 You can install the latest version from Github using:
 
 ``` r
-install.packages("devtools")
-devtools::install_github("elsayed-lab/org.LmjF.tritryp.db")
+library('devtools')
+install_github('elsayed-lab/org.LmjF.tritryp.db')
 ```
 
 Usage
@@ -52,7 +51,7 @@ go_terms = AnnotationDbi::select(org.LmjF.tritryp.db,
 head(go_terms)
 
 # KEGG pathways
-kegg_paths = AnnotationDbi::select(org.LmjF.tritryp.db, 
+kegg_paths = AnnotationDbi::select(org.LmjF.tritryp.db,
                                    keys=gene_ids, 
                                    keytype='GID', 
                                    columns=c('KEGG_NAME', 'KEGG_PATH'))
@@ -67,4 +66,3 @@ Additional resources that may be helpful:
 1. http://www.bioconductor.org/help/workflows/annotation-data/
 2. http://www.bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html
 3. http://training.bioinformatics.ucdavis.edu/docs/2012/05/DAV/lectures/annotation/annotation.html
-
