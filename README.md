@@ -1,7 +1,7 @@
 # org.LmjF.tritryp.db
 
 Genome-wide annotation package for *L. major strain Friedlin*, based on
-annotations from [TriTrypDB 9.0](http://tritrypdb.org/tritrypdb/).
+annotations from [TriTrypDB 24](http://tritrypdb.org/tritrypdb/).
 
 This package was generated using the tools from
 [https://github.com/elsayed-lab/eupathdb-organismdb](github.com/eupathdb-organismdb).
