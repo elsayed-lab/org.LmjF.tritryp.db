@@ -76,11 +76,6 @@
   ## Count the number of rows in the "genes" table:
   dbGetQuery(org.LmjF.tritryp_dbconn(), "SELECT COUNT(*) FROM genes")
 
-  ## The connection object returned by org.LmjF.tritryp_dbconn() was
-  ## created with:
-  dbConnect(SQLite(), dbname=org.LmjF.tritryp_dbfile(), cache_size=64000,
-  synchronous=0)
-
   org.LmjF.tritryp_dbschema()
 
   org.LmjF.tritryp_dbInfo()
