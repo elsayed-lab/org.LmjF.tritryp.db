@@ -5,10 +5,9 @@
 \description{
 
   Welcome to the org.LmjF.tritryp.db annotation Package.  This is an
-  organism specific package.  The purpose is to provide detailed
+  organism specific package. The purpose is to provide detailed
   information about the species abbreviated in the second part of the
-  package name org.LmjF.tritryp.db.  "Hs" is for Homo sapiens.  This
-  package is updated biannually.
+  package name org.LmjF.tritryp.db. This package is updated biannually.
 
   To learn more about this package, users are encouraged to learn about
   the select, columns, keys and keytypes methods.  These are described

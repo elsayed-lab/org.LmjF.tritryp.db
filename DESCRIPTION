@@ -1,14 +1,14 @@
 Package: org.LmjF.tritryp.db
 Title: Genome wide annotation for Leishmania major
 Description: Genome wide annotation for Leishmania major, primarily based on mapping using TriTrypDB Gene identifiers.
-Version: 27.0
+Version: 31.0
 Author: Keith Hughitt <khughitt@umd.edu>
 Maintainer: Keith Hughitt <khughitt@umd.edu>
-Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.32.3)
-Suggests: annotate, RUnit
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.36.2)
+Suggests: DBI, annotate, RUnit
 Imports: methods, AnnotationDbi
 License: Artistic-2.0
 organism: Leishmania major
-species: L. major strain Friedlin
+species: Leishmania major strain Friedlin
 biocViews: OrgDb, annotation
 
